@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+.device{
+    height: calc(100vh - 3vh);
+    background-color: #ECE8EF;
+    overflow: hidden;
+}
+
+.nav{
+    background-color: #DD6031;
+    height: 5vh;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    
+}
+
+h2{
+    padding: 10px;
+    margin-top: 15px;
+}
+
+button{
+    width: 20vw;
+    height: 7vh;
+    border: none;
+    border-radius: 25px;
+    background-color: #DD6031;
+    color: white;
+    margin-left: 5rem;
+    margin-top: 0rem;
+}
+
+img{
+    margin: -6rem 0.5rem 1rem 55rem;
+    
+    
+}
+
+form{
+    background-color: #DD6031;
+    color: white;
+    padding: 1rem;
+    margin: 0 9px 0 8px;
+
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+
+
+@media screen and (max-width:480px){
+    .device{
+        height: Calc(104vh - 4vh);
+        background-color: #ECE8EF;
+        overflow: scroll;
+    }
+
+    .nav{
+        background-color: #DD6031;
+        height: 4vh;
+        color: white;
+        font-family: 'Libre Baskerville', serif;
+        text-align: center;
+        
+    }
+
+    h2{
+        padding: 10px;
+        margin-top: 15px;
+    }
+
+    button{
+        width: 55vw;
+        height: 4vh;
+        border: none;
+        border-radius: 25px;
+        background-color: #DD6031;
+        color: white;
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+
+    img{
+        margin: 2rem 0.5rem 1rem 1.2rem;
+    }
+
+    form{
+        background-color: #DD6031;
+        color: white;
+        padding: 1rem;
+        margin: 0 9px 0 8px;
+
+    }
+
+    form input{
+        width: 100%;
+        padding: 10px;
+    }
+
+}
